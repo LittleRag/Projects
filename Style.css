@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+  }
+  
+        h1 {
+            text-align: center;
+            margin-top: 10%;
+            font-family: Arial;
+            color: green;
+        }
+        button {
+            background-color: lightgray;
+            font-size: xx-large;
+            border: none;
+            cursor: pointer;
+        }
+
+div{
+    background-size: cover;
+}
+form{
+    size: 20px;
+}
+
+    

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        
+    
+<meta charset="UTF-8">
+<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Shopping, list, easy, omega365">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+
+    <link rel="stylesheet" href="StyleShopping.css">
+
+    <title>Shopping List</title>
+
+
+        <div id="container" class="container"></div>
+        <div id="groceries"class="groceries">
+        <br>
+        <br>
+        <h1 id="Slogan"class="slogan"style="text-align: center;">Make shopping fun with Omega365</h1>
+            
+        <center><img src="data:image/png;base64,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"></center>
+                
+        <div id="button" class="deletebutton"></div>
+        
+        <div style="text-align: center;">
+            
+        <i id="eraser" class="fa-regular fa-eraser"></i>
+        
+        <input id = "userInput" type="text" placeholder="Add Groceries here...">
+        
+        </div>
+        <br>
+        
+        <div id="allItems"></div>
+        </div>
+        
+        
+        
+        <script src="Shoppingform.js"></script>    
+        
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
